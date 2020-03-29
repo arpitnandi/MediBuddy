@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MB_Test_Suite">
+  <listeners>
+    <listener class-name="test.Utilities.Listeners"/>
+  </listeners>
+  <test name="Test_Infiniti" thread-count="5">
+    <classes>
+      <class name="test.Runners.Test_HC_Booking"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
